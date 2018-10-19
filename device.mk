@@ -35,6 +35,9 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage/packages/apps/Snap \
     $(LOCAL_PATH)/overlay-system
 
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += device/realme/RMX1801
 
