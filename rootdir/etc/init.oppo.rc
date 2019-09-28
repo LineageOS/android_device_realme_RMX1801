@@ -1,3 +1,6 @@
+on post-fs-data
+    start hypnus_context
+
 on boot
     mkdir /data/opponvitems  0771 radio radio
     mkdir /persist/camera 0777 system system
@@ -96,3 +99,9 @@ on boot
     chmod 0666 /sys/devices/virtual/graphics/fb0/fingerprint_notify
     chmod 0666 /sys/devices/virtual/graphics/fb0/dynamic_fps_switch
     chmod 0666 /sys/devices/virtual/graphics/fb0/panel_serial_number
+
+# Add for hypnus
+service hypnus_context /vendor/bin/init.oppo.hypnus.sh
+    user root
+    disabled
+    oneshot
