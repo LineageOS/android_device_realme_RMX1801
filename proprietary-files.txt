@@ -2935,6 +2935,9 @@ vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 vendor/firmware/a540_gpmu.fw2
 
+# Hypnus
+lib/modules/hypnus.ko
+
 # Keybox
 vendor/bin/hw/vendor.oppo.hardware.cryptoeng@1.0-service
 vendor/etc/init/vendor.oppo.hardware.cryptoeng@1.0-service.rc
