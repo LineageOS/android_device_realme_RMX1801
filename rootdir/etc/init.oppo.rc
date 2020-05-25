@@ -105,3 +105,10 @@ service hypnus_context /vendor/bin/init.oppo.hypnus.sh
     user root
     disabled
     oneshot
+
+# Add for oppoalgo_daemon
+service oppoalgo /vendor/bin/oppoalgo_daemon
+    class main
+    user media
+    ioprio rt 4
+    group camera input drmrpc sdcard_rw system
