@@ -19,6 +19,9 @@ persist.sys.enable.hypnus=1
 # Memory optimizations
 ro.vendor.qti.sys.fw.bservice_enable=true
 
+# Oiface
+persist.sys.oiface.enable=2
+
 # RIL
 DEVICE_PROVISIONED=1
 gsm.lte.ca.support=0
