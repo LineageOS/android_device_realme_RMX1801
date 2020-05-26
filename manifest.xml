@@ -479,6 +479,15 @@
         </interface>
     </hal>
     <hal format="hidl">
+        <name>vendor.oppo.hardware.oiface</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IOiface</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
