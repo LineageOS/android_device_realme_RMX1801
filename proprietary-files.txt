@@ -60,16 +60,6 @@ vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libdiraceffect.so
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libacdbloader.so
-vendor/lib64/libacdbrtac.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libaudioconfigstore.so
-vendor/lib64/libaudioparsers.so
-vendor/lib64/libqtigef.so
-vendor/lib64/soundfx/libasphere.so
 
 # Audio (A2dp)
 vendor/lib/btaudio_offload_if.so
@@ -108,9 +98,6 @@ vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_workspaceFile.qwsp
 vendor/lib/hw/audio.primary.sdm660.so
 vendor/lib/libaudioEngineerTest.so
 vendor/lib/libaudio_log_utils.so
-vendor/lib64/hw/audio.primary.sdm660.so
-vendor/lib64/libaudioEngineerTest.so
-vendor/lib64/libaudio_log_utils.so
 
 # Audio Power Amplifier
 vendor/firmware/tfa98xx.cnt
@@ -2959,11 +2946,6 @@ vendor/lib/libgcs-ipc.so
 vendor/lib/libgcs-osal.so
 vendor/lib/libgcs.so
 vendor/lib/libsmwrapper.so
-vendor/lib64/hw/sound_trigger.primary.sdm660.so
-vendor/lib64/libgcs-calwrapper.so
-vendor/lib64/libgcs-ipc.so
-vendor/lib64/libgcs-osal.so
-vendor/lib64/libgcs.so
 
 # Media
 product/lib/vendor.qti.hardware.vpp@1.1.so
