@@ -326,7 +326,8 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service-qti
+    android.hardware.power@1.2-service-qti \
+    vendor.qti.hardware.perf@2.0.vendor
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
